@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="cookBook">
+    <BrowserRouter basename="cookbook-react">
       <App />
     </BrowserRouter>
   </React.StrictMode>
