@@ -1,11 +1,11 @@
-import { Suspense } from "react";
+import { Suspense, NavLinc } from "react";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
       <header>
-        <h1>header</h1>
+        <nav></nav>
       </header>
       <main>
         <Suspense>
